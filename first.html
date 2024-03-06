@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css"><!-- This links to the css file -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome My Amazing Website</h1><!-- this is the first header, also represents the intro of the website -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li><!-- links that are currently not usable -->
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>We only sell the best</h2>
+            
+        </div>
+    </section>
+
+    
+</body>
+</html>
+
+<!-- about.html (About Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About Us</h1>
+            <nav>
+                <ul>  
+                    <li><a href="about.html">About</a></li>                  
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+
+    
+</body>
+</html>
+
+<!-- contact.html (Contact Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p>Get in touch with us using the form below.</p>
+            <form id="contactForm"><!-- this part of the html is for contact using an email -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </header>   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- this uses the js code -->
+</body>
+</html>
+
